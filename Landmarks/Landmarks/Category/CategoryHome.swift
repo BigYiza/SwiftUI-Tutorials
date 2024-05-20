@@ -16,6 +16,7 @@ struct CategoryHome: View {
             
             List {
                 
+                
                 modelData.features.last?.image
                     .resizable()
                     .scaledToFill()
