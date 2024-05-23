@@ -20,7 +20,7 @@ struct CategoryRow: View {
                 .padding(.top, 5)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                           HStack(alignment: .top, spacing: 0) {
+                           HStack(alignment: .top, spacing: 15) {
                                ForEach(items) { landmark in
                                    
                                    NavigationLink {

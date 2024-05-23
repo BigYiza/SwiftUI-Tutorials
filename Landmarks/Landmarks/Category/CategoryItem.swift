@@ -15,13 +15,15 @@ struct CategoryItem: View {
         
         VStack(alignment: .leading) {
             landmark.image
+                .renderingMode(.original)
                 .resizable()
                 .frame(width: 155, height: 155)
                 .clipShape(RoundedRectangle(cornerRadius: 5))
             Text(landmark.name)
                 .font(.caption)
+                .foregroundStyle(.primary)
         }
-        .padding(.leading, 15)
+//        .padding(.leading, 15)
     }
 }
 
